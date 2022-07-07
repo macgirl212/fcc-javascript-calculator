@@ -1,0 +1,83 @@
+/**************
+   VARIABLES
+**************/
+/**************
+    GLOBAL
+**************/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #5383aa;
+}
+
+/**************
+    CLASSES
+**************/
+.calculator {
+  display: block;
+  border-radius: 7px;
+  position: absolute;
+  padding: 12px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 350px;
+  height: 500px;
+  background-color: #000000;
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Share Tech Mono', monospace;
+  width: 95%;
+  height: 70px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  color: white;
+}
+
+.btn:active {
+  opacity: 0.5;
+}
+
+.special-btn {
+  background-color: #565a6b;
+}
+
+.number {
+  background-color: #292d3b;
+}
+
+.operator {
+  background-color: #102c91;
+}
+
+.big-number {
+  background-color: #292d3b;
+}
+
+/**************
+      IDS
+**************/
+#display {
+  height: 80px;
+  background-color: #d3d4c3;
+  margin-bottom: 13px;
+  border-radius: 10px;
+  text-align: right;
+  vertical-align: text-top;
+  font-size: 70px;
+  font-family: 'VT323', monospace;
+}
+/*# sourceMappingURL=style.css.map */

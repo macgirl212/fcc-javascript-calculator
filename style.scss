@@ -1,0 +1,87 @@
+/**************
+   VARIABLES
+**************/
+$backgroundColor: #5383aa;
+$calculatorColor: #000000;
+$specialButtonColor: #565a6b;
+$regularButtonColor: #292d3b;
+$operatorButtonColor: #102c91;
+$displayColor: #d3d4c3;
+$fontColor: #ffffff;
+
+/**************
+    GLOBAL
+**************/
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $backgroundColor;
+}
+
+/**************
+    CLASSES
+**************/
+.calculator {
+    display: block;
+    border-radius: 7px;
+    position: absolute;
+    padding: 12px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 500px;
+    background-color: $calculatorColor;
+}
+
+.btn {
+    color: $fontColor;
+    font-size: 25px;
+    font-family: 'Share Tech Mono', monospace;
+    width: 95%;
+    height: 70px;
+    transition: 0.2s;
+
+    &:hover {
+        opacity: 0.9;
+        color: white;
+    }
+
+    &:active {
+        opacity: 0.5;
+    }
+}
+
+.special-btn {
+    background-color: $specialButtonColor;
+}
+
+.number {
+    background-color: $regularButtonColor;
+}
+
+.operator {
+    background-color: $operatorButtonColor;
+}
+
+.big-number {
+    background-color: $regularButtonColor;
+}
+
+/**************
+      IDS
+**************/
+#display {
+    height: 80px;
+    background-color: $displayColor;
+    margin-bottom: 13px;
+    border-radius: 10px;
+    text-align: right;
+    vertical-align: text-top;
+    font-size: 70px;
+    font-family: 'VT323', monospace;
+}
