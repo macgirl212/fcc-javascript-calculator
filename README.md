@@ -7,7 +7,7 @@ This was made as part of the freeCodeCamp Front End Development Libraries curric
 ## How to Use:
 
 1. Press some numbers.
-2. Press a non-number.
+2. Press a blue button.
 3. Press more numbers.
 4. Press the equal sign.
 5. Profit!
